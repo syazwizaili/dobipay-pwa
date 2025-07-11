@@ -1,0 +1,22 @@
+{
+    "menu": [
+        {
+            "name": "Marketplace",
+            "colors": "0xFFD3DEFE",
+            "icons": "",
+            "url": "/marketplace"
+        },
+        {
+            "name": "Pay Bill",
+            "colors": "0xFFD3DEFE",
+            "icons": "",
+            "url": "/paybill"
+        },
+        {
+            "name": "Prepaid",
+            "colors": "0xFFD3DEFE",
+            "icons": "",
+            "url": "/prepaid"
+        }
+    ]
+}

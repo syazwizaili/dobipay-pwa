@@ -1,0 +1,48 @@
+name: dobipay
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  go_router:
+  intl:
+  flutter_riverpod:
+  google_fonts:
+  flutter_svg:
+  fl_chart:
+  random_avatar:
+  pwa_install:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/icons/navbar/
+    - assets/icons/feeds/
+    - assets/icons/minishop/
+    - assets/icons/menu/
+    - assets/icons/home/
+    - assets/icons/transaction/
+    - assets/images/
+    - assets/placeholders/
+    - assets/fonts/
+    - assets/data/
+

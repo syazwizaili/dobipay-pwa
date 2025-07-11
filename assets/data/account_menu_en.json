@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "title": "My Account",
+            "menu": [
+                {
+                    "title": "Personal Information",
+                    "url": "/my-account/personal-information"
+                },
+                {
+                    "title": "Change Password",
+                    "url": "/my-account/change-password"
+                },
+                {
+                    "title": "Machine Settings",
+                    "url": "/my-account/my-devices"
+                }
+            ]
+        },
+        {
+            "title": "Others",
+            "menu": [
+                {
+                    "title": "Language",
+                    "url": "/other/language"
+                },
+                {
+                    "title": "Contact Us",
+                    "url": "/other/contact-us"
+                },
+                {
+                    "title": "Terms & Conditions",
+                    "url": "/other/terms-conditions"
+                },
+                {
+                    "title": "Privacy Policy",
+                    "url": "/other/privacy-policy"
+                },
+                {
+                    "title": "FAQ",
+                    "url": "/other/faq"
+                }
+            ]
+        }
+    ]
+}
