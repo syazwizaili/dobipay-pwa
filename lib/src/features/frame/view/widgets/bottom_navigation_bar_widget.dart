@@ -43,15 +43,6 @@ class _BottomNavigationBarWidgetState
           ),
           label: "Sales",
         ),
-
-        BottomNavigationBarItem(
-          icon: Image.asset('assets/icons/navbar/users.png', width: 20),
-          activeIcon: Image.asset(
-            'assets/icons/navbar/users-active.png',
-            width: 20,
-          ),
-          label: "Customers",
-        ),
         BottomNavigationBarItem(
           icon: Image.asset('assets/icons/navbar/machine.png', width: 20),
           activeIcon: Image.asset(
@@ -59,6 +50,14 @@ class _BottomNavigationBarWidgetState
             width: 20,
           ),
           label: "Machines",
+        ),
+        BottomNavigationBarItem(
+          icon: Image.asset('assets/icons/navbar/users.png', width: 20),
+          activeIcon: Image.asset(
+            'assets/icons/navbar/users-active.png',
+            width: 20,
+          ),
+          label: "Customers",
         ),
         BottomNavigationBarItem(
           icon: Image.asset('assets/icons/navbar/settings.png', width: 20),
@@ -82,10 +81,10 @@ class _BottomNavigationBarWidgetState
         context.go('/transaction');
         break;
       case 2:
-        context.go('/customer');
+        context.go('/machine');
         break;
       case 3:
-        context.go('/machine');
+        context.go('/customer');
         break;
       case 4:
         context.go('/setting');
