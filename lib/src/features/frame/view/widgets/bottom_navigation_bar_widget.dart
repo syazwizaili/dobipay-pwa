@@ -22,8 +22,8 @@ class _BottomNavigationBarWidgetState
       onTap: (value) => _onTap(value),
       type: BottomNavigationBarType.fixed,
       backgroundColor: Colors.white,
-      showSelectedLabels: false,
-      showUnselectedLabels: false,
+      showSelectedLabels: true,
+      showUnselectedLabels: true,
       selectedFontSize: 14.0,
       unselectedFontSize: 14.0,
       items: [
